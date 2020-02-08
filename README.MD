@@ -20,3 +20,26 @@ https://spring.io/projects/spring-hateoas <br>
 <hr>
 Hypertext Application Language <hr>
 https://en.wikipedia.org/wiki/Hypertext_Application_Language <br>
+
+<hr>
+Spring Data REST Configuration, Pagination and Sorting <br>
+
+Configuration <br>
+@RepositoryRestResource(path="member") <br> <br>
+
+Pagination <br>
+set in application.properties <br>
+spring.data.rest.base-path <br>
+spring.data.rest.default-page-size <br>
+spring.data.rest.max-page-size <br>
+https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#common-application-properties <br>
+
+<br> <br>
+Sorting  <br>
+You can sort by the properties names of your entity <br>
+ex: ...employee?sort=firstName (asc,desc) <br> 
+
+
+
+
+
